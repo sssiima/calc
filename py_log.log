@@ -1,0 +1,8 @@
+INFO:root:Archive
+INFO:root:1+9=10
+INFO:root:10-6=4
+INFO:root:4*3=12
+INFO:root:12/6=2
+INFO:root:2^9=512
+INFO:root:-512+8=-504
+INFO:root:-504-6.4=-510.4
