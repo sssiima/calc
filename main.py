@@ -116,6 +116,9 @@ class MainWindow(QMainWindow):
         except SyntaxError:
             res = "Error"
             self.text.setText("")
+        except ZeroDivisionError:
+            res = "Error"
+            self.text.setText("")
         if ".0" in self.text.text():
             res = self.text.text()[:-2]
             self.text.setText(res)
